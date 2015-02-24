@@ -48,8 +48,9 @@ def build_by_extraction(year = 2006):
     store.close()
 
 
-def get_fake_input_data_frame(year = 2006):
+def get_fake_input_data_frame():
     store = HDFStore(hdf5_file_realpath)
+    year = 2006
     return store.select(str(year))
 
 
