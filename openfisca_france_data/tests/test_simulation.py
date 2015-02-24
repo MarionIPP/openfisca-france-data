@@ -40,7 +40,7 @@ def test_fake_survey_simulation():
             year = year,
             )
         simulation = survey_scenario.new_simulation()
-
+        yield check_run, simulation, year
 
 
 if __name__ == '__main__':
