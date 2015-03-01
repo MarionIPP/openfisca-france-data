@@ -1,4 +1,4 @@
-IGNORE_OPT=--ignore-files='(test_eipp.py|test_calibration|test_erfs.py)'
+IGNORE_OPT=--ignore-files='(test_eipp.py|test_calibration|test_erfs.py|test_surveys.py)'
 TESTS_DIR=openfisca_france_data/tests
 
 all: flake8 test
